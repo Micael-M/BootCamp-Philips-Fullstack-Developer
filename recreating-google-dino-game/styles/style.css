@@ -18,3 +18,12 @@
   position: absolute;
   width: 60px;
 }
+
+.cactus {
+  border-radius: 50%;
+  bottom: 0; 
+  background: rgb(62, 62, 62);
+  height: 60px;
+  position: absolute;
+  width: 60px;
+}
