@@ -1,14 +1,18 @@
 * {
   height: 100%;
   margin: 0;
+  padding: 0;
+  background: fixed;
+
 }
 .background {
-  background-image: linear-gradient(to bottom, rgb(251, 233, 217), rgb(255, 255, 255));
+  background-image: linear-gradient(to bottom, rgb(251, 233, 217), rgb(236, 232, 232));
+  background-attachment: fixed;
 }
 
 .dino {
   border-radius: 50%;
-  bottom: 0;
+  bottom: 0; 
   background: rgb(62, 62, 62);
   height: 60px;
   position: absolute;
