@@ -1,16 +1,54 @@
-* {
-  height: 100%;
+body {
+  background: rgb(250, 250, 250);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 94, 94);
   margin: 0;
-}
-.background {
-  background-image: linear-gradient(to bottom, rgb(251, 233, 217), rgb(255, 255, 255));
+  display: flex;
+  justify-content: center;
 }
 
 .dino {
-  border-radius: 50%;
+  background-image: url(../images/dino.png);
   bottom: 0;
-  background: rgb(62, 62, 62);
+  height: 60px;
+  left: 100px;
+  position: absolute;
+  width: 60px;
+}
+
+.cactus {
+  background-image: url(../images/cactus.png);
+  bottom: 0;
   height: 60px;
   position: absolute;
   width: 60px;
+}
+
+.game-over {
+  margin: 50px 0;
+  text-align: center;
+
+}
+
+@keyframes slideLeft {
+  from {
+    background-position: 20000%;
+  }
+  to {
+    background-position: 0;
+  }
+}
+
+.background {
+  justify-content: center;
+  animation: slideLeft 400s infinite linear;
+  background-image: url(../images/background.png);
+  background-repeat: repeat-x;
+  border: 2px solid rgb(95, 94, 94) ;
+  bottom: 0;
+  height: 300px;
+  margin-bottom: 30vh;
+  position: absolute;
+  -webkit-animation: slideLeft 400s infinite linear;
+  width: 60%;
 }
