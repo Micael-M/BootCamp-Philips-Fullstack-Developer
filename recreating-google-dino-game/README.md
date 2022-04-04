@@ -7,9 +7,11 @@ Abordando de maneira simples diversos conceitos introdutórios importantes para 
 
 
 ### Resultado 🎉🎉🎉
-
-![](./images/dino_game.gif)
-
+<section class="project_image">
+  <p align="center">
+    <img src="./images/dino_game.gif" alt="Gif do projeto funcionando"/>
+  </p>
+</section>
 
 <h1 align="center">💬🗣 Chega mais, vamos conversar 💬🗣</h1>
 
